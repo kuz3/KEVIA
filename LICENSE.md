@@ -56,7 +56,7 @@
 
 7. MISCELLANEOUS.
 
-   This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
-
    The Initial Creator is expected not to be a legal expert, nor attempting word salad, as such in the case of any court related disputes the License is expected to be read as implied by the Initial Developer, that is, the judge proceeding over any court rulings is requested to
    follow the implied and expressed interests of the Initial Developer.
+
+   This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
