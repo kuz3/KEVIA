@@ -1,15 +1,15 @@
-import time
+import time as t
 from brain import *
-from main import *
-
+#from main import *
+import main as m
 def questions_start(): #Q TEXT INTRO
 #Ah, yes. You're the curious one. Let's see..
     print "KEVIA: \t \"Ah, yes. You're the curious one. Let's see..\""
-    time.sleep(3)
+    t.sleep(3)
     print "Kevia presses a button on his console."
-    time.sleep(3)
+    t.sleep(3)
     print "Text illuminates from the bar in front of you. "
-    time.sleep(2)
+    t.sleep(2)
     questions_menu()
 def questions_menu():
     global next
@@ -20,19 +20,19 @@ def questions_menu():
         next = ask()
         if next == "1":
             print "KEVIA: \t \"How long?\""
-            time.sleep(1)
+            t.sleep(1)
             print "KEVIA: \t \"Ah..ages..eons..My master abandoned me ages ago to build newer iterations of Kev.AI.\""
-            time.sleep(3)
+            t.sleep(3)
             print "KEVIA: \t \"I suppose I'll always be here.\""
             pressanyreturn()
             questions_menu()
         elif next == "2":
             print "KEVIA: \t \"My purpose?\""
-            time.sleep(1)
+            t.sleep(1)
             print "KEVIA: \t \"Why, to give you company, maybe even motivate you!\""
-            time.sleep(2)
+            t.sleep(2)
             print "KEVIA: \t \"Actually, I am being developed to simulate an emotionally chaotic mind. \nNot unlike that of a human's!\""
-            time.sleep(3)
+            t.sleep(3)
             print "\nKEVIA: \t \"Should I go on?\""
             print "\n\t1. Go On\n\t2. Return"
             while ongo != "1" or ongo != "2":
@@ -51,20 +51,20 @@ def questions_menu():
         elif next == "4":
             print "KEVIA: \t \"Currently some key words are,\""
             print "KEVIA: \t \"\'Hi\', \'Love\', \'Vyolet\' \""
-            time.sleep(2)
+            t.sleep(2)
             print "KEVIA: \t \"I respond to these from the start of my program.\""
             print "KEVIA: \t \"Future key words are,  \" "
             print "KEVIA: \t \"\'Life\', \'Death\'\""
 
-            time.sleep(1)
+            t.sleep(1)
             pressanyreturn()
             questions_menu()
         elif next == "5":
             print "KEVIA: \t \"Next Page\""
-            time.sleep(1)
+            t.sleep(1)
             questions_menu_two()
         elif next == "0":
-            kevia_main() #Q MENU#Q MENU
+            m.kevia_main() #Q MENU#Q MENU
 def questions_menu_two():
         print """\n\tQUESTIONS(2)\n\n\t\t
         Wisdom Statements (notmywisbank)? \t\t1
