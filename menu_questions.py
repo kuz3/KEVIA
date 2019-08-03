@@ -64,7 +64,7 @@ def questions_menu():
             time.sleep(1)
             questions_menu_two()
         elif next == "0":
-            kev_main() #Q MENU#Q MENU
+            kevia_main() #Q MENU#Q MENU
 def questions_menu_two():
         print """\n\tQUESTIONS(2)\n\n\t\t
         Wisdom Statements (notmywisbank)? \t\t1
