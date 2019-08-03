@@ -1,23 +1,34 @@
 1.0 DEFINITIONS
+
    1.1 This Work covers all files included in the directory KEVIA and it's related directories and subdirectories.
+
    1.2 Creator Content means and covers all text content, including the character KEVIA. Creator Content explicitly implies all content which would be expected to be textual and fictional "storytelling" and not related to the computer programming language known as "Python". More specifically (technically), Creator Content refers to all text content contained within parenthesis ("") in This Work,
    and Creator Content refers to text in all Python Commented Lines (text preceded by a hashtag symbol #) that would also be considered not computer programming or python related.
+
    1.3 Computer Code means all computer programming related code and code functions in This Work, that is, information pertaining to the Python programming language.
+
    1.4. Covered Software means (a) the Original Software, or (b) Modifications, or (c) the combination of files containing Original Software with files containing Modifications, in each case including portions thereof.
+
    1.5. Executable means the Covered Software in any form other than Source Code.
+
    1.6. Initial Developer means solely James Bytes, born 04/24/1994, initials TJK, holder of original unpublished code, owner of kuz3kav@gmail.com, owner of dearpsycho.com, mother's maiden name Grace. Claiming the identity and coincidental details or even copyright of James Bytes does not grant any ownership of these files, that is, Initial Developer does not imply that anyone can claim
    This Work, rather, there is one creator who retains this work.
+
    1.7. License means this document.
+
    1.8 The Public means any and all conscious and sentient beings.
+
    1.9. Modifications means the Source Code and Executable form of any of the following:
       A. Any file that results from an addition to, deletion from or modification of the contents of a file containing Original Software or previous Modifications;
       B. Any new file that contains any part of This Work or previous Modification; or
       C. Any new file that is contributed or otherwise made available under the terms of this License.
+
 3. COPYRIGHT
    Ownership of all Creator Content is solely retained by the Initial Developer, and passed on only to his descendants after death.
    All Creator Content in This Work is not to be copied or modified for redistribution by anyone without permission from the Initial Developer, up until after his death.
    All Creator Content in This Work is never to be "closed off to", that is, made unavailable to, the Public.
    All Computer Content in This Work is to always be "Open-Source" and encouraged to be used, modified, and redistributed in any way, except as to infringe upon the Computer Content's usage for all others, that is, the  should not be made "Closed-Source", by the respective terms'(in quotations on this line) generally understood meanings.
+
 4. DISCAIMER OF INFRINGEMENT
    Any and all copyrighted material potentially infringed upon in This Work is purely coincidental (in the case of general statements such as "I love you") and/or accidental, and will likely be removed if the Initial Developer is requested to do so. The Initial Developer expressing ownership in the text content of the file is to refer to all content that is pertaining to KEVIA and its related fiction, rather than, for example, quotes to Albert Einstein.
 
