@@ -1,4 +1,5 @@
-from kevia_brain import * 
+from brain import *
+#import brain
 import time
 #TASK LIST: TEXT:
 #UNIMPORTED TEXT----------------------- move lots of unimported text here.

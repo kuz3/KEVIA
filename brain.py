@@ -61,13 +61,14 @@ def hi(next): #print from bank and store next in bank.
   global hibank
   hibank.append(next)
   print random.choice(hibank)
+def massmemory(you_said): #one memory captures all #again do I even need to put the var in here
+    global massmemory
+    massmembank.append(you_said)
 def ask():
   you_said = raw_input(mood_current).lower()
   massmemory(you_said)
   return you_said #what am I returning...
-  def massmemory(you_said): #one memory captures all #again do I even need to put the var in here
-    global massmemory
-    massmembank.append(you_said)
+
   def memory(next):
     global membank
     membank.append(next)
