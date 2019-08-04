@@ -1,3 +1,4 @@
+#move morality somewhere else.. 
 import time as t
 from mainbrain import *
 ##############################
