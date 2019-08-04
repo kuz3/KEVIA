@@ -53,14 +53,14 @@ def fire(): #naming reverse
 #words= "I'm speaking"
 #place = "love"
 #fire(place)
-#print random.choice(bank)
+#print r.choice(bank)
 ###############################################################################
 #==================================MEMORY FUNCTIONS=============================
 ###############################################################################
 def hi(next): #print from bank and store next in bank.
   global hibank
   hibank.append(next)
-  print random.choice(hibank)
+  print r.choice(hibank)
 def massmemory(you_said): #one memory captures all #again do I even need to put the var in here
     global massmemory
     massmembank.append(you_said)

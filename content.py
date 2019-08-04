@@ -1,5 +1,5 @@
 from brain import *
-import time
+#import time as t 
 #use my function on this.
 priorities = "\nKEVIA: \t \"currently you have, Me, the Book, Medium, and Textbroker. Have fun!\""
 

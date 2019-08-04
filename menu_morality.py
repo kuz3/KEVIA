@@ -1,5 +1,5 @@
-import time
-from brain import * 
+import time as t 
+from brain import *
 ##############################
 #LEARN FUNCTIONS
 def morality():

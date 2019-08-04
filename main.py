@@ -4,24 +4,24 @@ from menu_drinks import *
 from menu_questions import *
 def start():
     print "KEVIA: \t \"Initializing\""
-    time.sleep(2)
+    t.sleep(2)
     print "KEVIA: \t \"...\""
-    time.sleep(1)
+    t.sleep(1)
     print "KEVIA: \t \"..\""
-    time.sleep(1)
+    t.sleep(1)
     print "KEVIA: \t \".\""
-    time.sleep(1)
+    t.sleep(1)
     print "KEVIA: \t \"last updated: 6.26.19\""
-    time.sleep(1)
+    t.sleep(1)
     print "KEVIA: \t \".\""
-    time.sleep(1)
+    t.sleep(1)
     print "KEVIA: \t \".\"\n"
-    time.sleep(1)
+    t.sleep(1)
     kevia_main()
 def kevia_main():
     global next
     print "Kevia hums and shines a glass cup with an old rag."
-    time.sleep(3)
+    t.sleep(3)
     print """
     \n1. Drink Menu
     \n2. Questions Menu
