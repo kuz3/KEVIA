@@ -2,6 +2,7 @@ from content import *
 from menu_morality import *
 from menu_drinks import *
 from menu_questions import *
+import random as r 
 def start():
     print "KEVIA: \t \"Initializing\""
     t.sleep(2)
@@ -50,7 +51,7 @@ def kevia_main():
         #elif "love" in next:
         #    vyolet()
         else:
-            print random.choice(wisbank)
+            print r.choice(wisbank)
             memory(next) #this memory captures only else output. shouldn't store numbers and such.
 
 def glass():
@@ -58,4 +59,4 @@ def glass():
     notadded()
     drink_menu()
 def vyolet():
-    print random.choice(vyoletbank)
+    print r.choice(vyoletbank)
