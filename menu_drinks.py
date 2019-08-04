@@ -1,6 +1,7 @@
-import time as t 
+import time as t
 from brain import *
-def drink_start(): #D TEXT INTRO
+from drinks.glass import *
+def drink_start():
     print "KEVIA: \t \"An adventurous spirit after my own heart. Splendid!\""
     t.sleep(3)
     print "Kevia fumbles with a console of buttons."
@@ -9,7 +10,7 @@ def drink_start(): #D TEXT INTRO
     t.sleep(2)
     drink_menu()
 
-def drink_menu(): #D MENU
+def drink_menu():
     global next
     print "\n\tDRINKS\n\n\t\tGlass of Water\t\t1\n\t\tMelon Choly \t\t2\n\t\tInstant Sanity\t\t3\n\t\t\'Lego Network\'\t\t4\n\t\tNapkin\t\t\t5"
     #6. ENDGAME. with passwords to access.
@@ -22,4 +23,4 @@ def drink_menu(): #D MENU
         if next == "2":
             print "KEVIA: \t \"A refined choice for a clean soul. Here you are.\""
             t.sleep(2)
-            glass()
+#            glass()
