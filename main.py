@@ -1,8 +1,11 @@
+#    actions = [radio.scan] * 2 + [radio.toggle_amfm] + [radio.scan] * 2
+
+
 from content import *
 from menu_morality import *
 from menu_drinks import *
 from menu_questions import *
-import random as r 
+import random as r
 def start():
     print "KEVIA: \t \"Initializing\""
     t.sleep(2)

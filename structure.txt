@@ -1,16 +1,8 @@
-soul > brain > content > main > kevia
-^soul_mood          ^
-                  menu_drinks
-                  menu_morality
-                  menu_questions
-
-make like above next.
-
-soul >               brain > content >         speak > main > kevia
-^soul_mood
-^soul_morality         ^         ^               ^
-                     banks    menu_drinks       banks?
-                                 menu_morality
-                                 menu_questions
-
-then make like this
+#not up to date 
+soul >   brain >    content > speak > main > kevia
+^            ^
+mood         banks
+morality       ^
+             banks    menu_drinks       banks?
+                                     morality
+                                     questions

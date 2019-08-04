@@ -1,5 +1,6 @@
 import random as r
 import soul_mood
+#import mainsoul 
 from brain.banks import *
 
 talk = None
