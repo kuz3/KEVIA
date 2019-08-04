@@ -1,6 +1,5 @@
 #    actions = [radio.scan] * 2 + [radio.toggle_amfm] + [radio.scan] * 2
-
-
+#from mainbrain import * 
 from content import *
 from menu_morality import *
 from menu_drinks import *
@@ -38,10 +37,8 @@ def kevia_main():
         if next == "1":
             drink_start()
         elif next == "2":
-#            print "user selected questions menu"
             questions_start()
         elif next == "3":
-#            print "user selected morality function"
             morality()
         elif next == "4":
             write_help()
@@ -52,7 +49,7 @@ def kevia_main():
         elif "vyolet" in next:
             vyolet()
         #elif "love" in next:
-        #    vyolet()
+        #    love()
         else:
             print r.choice(wisbank)
             memory(next) #this memory captures only else output. shouldn't store numbers and such.

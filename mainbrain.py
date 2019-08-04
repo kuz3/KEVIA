@@ -1,6 +1,6 @@
 import random as r
-import soul_mood
-#import mainsoul 
+import mainsoul
+#import mainsoul
 from brain.banks import *
 
 talk = None
@@ -50,30 +50,26 @@ def ask():
   massmemory(you_said)
   return you_said #what am I returning...
 
-  def memory(next):
+def memory(next):
     global membank
     membank.append(next)
   #SHORTCUT FUNCTIONS
-  def transporter():
-      print "A beam of blinding light shines down upon you.\n All you can see is white. \n Disoriented, strange visions flood your mind until you lose consciousness."
-      time.sleep(4)
-  def notadded():
-      print "\nAuthor's Note: This has not tested for errors and has not yet been added.\n Returning you in five seconds"
-      time.sleep(5)
-      return
-  #SECRET TEXT FUNCTIONS
-  def write_help():
-      print "You need motivation? Perspective? "###########################################################################
-      #print a standard response then return IF=ANY input writersbank.
-      #"If you're feeling bored and uncreative, perhaps its a good time to work on something boring and get it done."
+def transporter():
+  print "A beam of blinding light shines down upon you.\n All you can see is white. \n Disoriented, strange visions flood your mind until you lose consciousness."
+  time.sleep(4)
+def notadded():
+  print "\nAuthor's Note: This has not tested for errors and has not yet been added.\n Returning you in five seconds"
+  time.sleep(5)
+  return
+#SECRET TEXT FUNCTIONS
+def write_help():
+  print "You need motivation? Perspective? "###########################################################################
+  #print a standard response then return IF=ANY input writersbank.
+  #"If you're feeling bored and uncreative, perhaps its a good time to work on something boring and get it done."
 
 def pressanynumber():
     print "\n type a number and press enter to continue"
 def pressanyreturn():
     print "\n press any key to return"
-    #PRESS ANY KEY TO RETURN...
     next = ask()
-#    if next = True:
-#        questions_menu()
-#    else:
     return
