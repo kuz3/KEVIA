@@ -1,5 +1,5 @@
 import time as t
-from brain import *
+from mainbrain import *
 from drinks.glass import *
 def drink_start():
     print "KEVIA: \t \"An adventurous spirit after my own heart. Splendid!\""
