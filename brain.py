@@ -1,4 +1,4 @@
-import random
+import random as r
 import soul_mood
 talk = None
 words = "Not Working"

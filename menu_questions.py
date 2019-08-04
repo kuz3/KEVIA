@@ -3,7 +3,6 @@ from brain import *
 #from main import *
 import main as m
 def questions_start(): #Q TEXT INTRO
-#Ah, yes. You're the curious one. Let's see..
     print "KEVIA: \t \"Ah, yes. You're the curious one. Let's see..\""
     t.sleep(3)
     print "Kevia presses a button on his console."
