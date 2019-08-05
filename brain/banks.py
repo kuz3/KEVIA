@@ -5,9 +5,7 @@
 #===========================================================================
 #//////////////////////////////MAIN CONVERSATIONAL BANK\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 wisbank = ["\nKEVIA: \t \"I hope for more love in this world.\"","\nKEVIA: \t \"You too.\"","\nKEVIA: \t \"Am I even real?\"","\nKevia begins singing into the end of a broomstick.\", \nKEVIA: \t \"I cannot remember.\""]
-#//////////////////////////////MEMORY BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-membank = []
-massmembank = []
+
 #//////////////////////////////WISDOM BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 writersbank = [] #PERSPECTIVE BANK.
 stealbank = [] #persp wis not mine.
@@ -22,3 +20,7 @@ lovebank = ["\nKEVIA: \t \"I love you, you are dear to me.\""]
 #//////////////////////////////////MORALITY BANKS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 goodbank = ["Life", "Hope"] #morality
 badbank = ["Death", "Fear"] #morality
+
+#//////////////////////////////MEMORY BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+membank = []
+massmembank = []

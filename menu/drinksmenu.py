@@ -1,6 +1,6 @@
 import time as t
 from mainbrain import *
-from drinks.glass import * 
+from drinks.glass import *
 def drink_start():
     print "KEVIA: \t \"An adventurous spirit after my own heart. Splendid!\""
     t.sleep(3)
@@ -23,4 +23,4 @@ def drink_menu():
         if next == "2":
             print "KEVIA: \t \"A refined choice for a clean soul. Here you are.\""
             t.sleep(2)
-#            glass()
+            notadded()

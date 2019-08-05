@@ -1,11 +1,9 @@
 import random as r
 from mainsoul import *
-#import mainsoul
 from brain.banks import *
-
+import consciousness.moodcurrent as c
 talk = None
 words = "Not Working"
-mood_current = " >" # move to content.py if possible, or soul
 place = None
 next = None
 
@@ -46,7 +44,7 @@ def massmemory(you_said): #one memory captures all #again do I even need to put 
     global massmemory
     massmembank.append(you_said)
 def ask():
-  you_said = raw_input(mood_current).lower()
+  you_said = raw_input(c.mood_current).lower()
   massmemory(you_said)
   return you_said #what am I returning...
 
