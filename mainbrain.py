@@ -1,5 +1,5 @@
 import random as r
-import mainsoul
+from mainsoul import *
 #import mainsoul
 from brain.banks import *
 

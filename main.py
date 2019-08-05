@@ -1,5 +1,3 @@
-#    actions = [radio.scan] * 2 + [radio.toggle_amfm] + [radio.scan] * 2
-#testtest nkdfksf
 from maincontent import *
 from mainmenu import *
 #from menu.morality import *
