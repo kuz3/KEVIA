@@ -13,7 +13,7 @@ def start():
     t.sleep(1)
     print "KEVIA: \t \".\""
     t.sleep(1)
-    print "KEVIA: \t \"last updated: 08.05.19\""
+    print "KEVIA: \t \"last updated: 08.06.19\""
     t.sleep(1)
     print "KEVIA: \t \".\""
     t.sleep(1)
