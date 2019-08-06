@@ -2,33 +2,33 @@ import random as r
 from mainsoul import *
 from brain.banks import *
 import consciousness.moodcurrent as c
-talk = None
-words = "Not Working"
-place = None
-next = None
+#talk = None
+#words = "Not Working"
+#place = None
+#next = None
 
 ###############################################################################
 #==================================STORAGE FUNCTIONS=============================
 ###############################################################################
-def creator(words):
-    global talk
-    talk = "\nCreator: \t \"%s\"" % words
-    vyoletbank.append(talk)
-def talking(words):
-    global talk
-    talk = "\nKEVIA: \t \"%s\"" % words
-    return talk
-def fire(): #naming reverse
-    global place
-    talking(words)
-    if place == "love":
-        bank.append(talk)
-    elif place == "muse":
-        musebank.append(talk)
-    elif place == "test":
-        testbank.append(talk)
-    else:
-        print "fail"
+#def creator(words):
+#    global talk
+#    talk = "\nCreator: \t \"%s\"" % words
+#    vyoletbank.append(talk)
+#def talking(words):
+#    global talk
+#    talk = "\nKEVIA: \t \"%s\"" % words
+#    return talk
+#def fire(): #naming reverse
+#    global place
+#    talking(words)
+#    if place == "love":
+#        bank.append(talk)
+#    elif place == "muse":
+#        musebank.append(talk)
+#    elif place == "test":
+#        testbank.append(talk)
+#    else:
+#        print "fail"
 #words= "I'm speaking"
 #place = "love"
 #fire(place)

@@ -4,12 +4,6 @@ from mainbrain import *
 priorities = "\nKEVIA: \t \"currently you have, Me, the Book, Medium, and Textbroker. Have fun!\""
 
 #TASK LIST: TEXT:
-#UNIMPORTED TEXT----------------------- move lots of unimported text here.
-#LIFE: Don't worry so much about what other people think of you,
-#focus on your words and actions. People remember when you encourage them
-#and support them, and that is what they will love you for. And
-#you don't do it for their love, you do it because you love them.
-#That will bring you social fulfillment far more than fitting in.
 #WRITING:
 #PERSPECTIVE:
 #--------------------------
