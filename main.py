@@ -1,6 +1,7 @@
 from maincontent import *
 from mainmenu import *
 from brain import *
+from content.sparkfire import *
 import consciousness.bankshot as c
 import random as r
 import time as t
@@ -21,6 +22,7 @@ def start():
     t.sleep(1)
     kevia_main()
 def kevia_main():
+    fireall()#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
     global next
     print "Kevia hums and shines a glass cup with an old rag."
     t.sleep(3)

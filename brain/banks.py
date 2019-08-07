@@ -1,7 +1,7 @@
 
 #move all content here into content.py
 #===========================================================================
-#--------------------------------------BANKS-----------------------------
+#------------------------MEMORY BANKS-----------------------------
 #===========================================================================
 #//////////////////////////////MAIN CONVERSATIONAL BANK\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 wisbank = ["\nKEVIA: \t \"I hope for more love in this world.\"","\nKEVIA: \t \"You too.\"","\nKEVIA: \t \"Am I even real?\"","\nKevia begins singing into the end of a broomstick.\", \nKEVIA: \t \"I cannot remember.\""]
