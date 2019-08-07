@@ -5,6 +5,18 @@ from content.sparkfire import *
 import consciousness.bankshot as c
 import random as r
 import time as t
+#from kevia import master # breaks kevia.py
+def toggle(master, speech, priorities, motivational):
+    if master == "y":
+        global next
+        print "%s" % priorities
+        print "%s" % priorities
+
+        while next != "fire":
+            next = ask()
+            c.wisshot
+    else:
+        start()
 def start():
     print "KEVIA: \t \"Initializing\""
     t.sleep(2)
@@ -47,6 +59,8 @@ def kevia_main():
             kev_main()
         elif "hi" in next:
             hi(next)
+        elif "love" in next:
+            c.loveshot()
         elif "vyolet" in next:
             c.vyoletshot()
         #elif "love" in next:
