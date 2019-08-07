@@ -1,13 +1,13 @@
 from main import *
 import nothing.workspace as n
 #import nothing.workspacetwo as w
-start()
+#start()
 
 n.words = "Hello"
 n.name = "Bytes"
-place = "love"
-#n.fire(place)
-#print lovebank
+n.place = "love"
+n.fire()
+print lovebank
 
 
 #print talk
