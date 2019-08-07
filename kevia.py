@@ -1,7 +1,7 @@
 #add to github notes, banks > storagefire  > sparkfire + bankshot
 
 #Toggle Master Mode
-master = "y"
+master = "n"
 speech = "Welcome back sir, you've returned."
 #quick while loop
     #call my personal writers bank and or motivational bank combined.
