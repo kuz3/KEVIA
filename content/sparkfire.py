@@ -67,5 +67,4 @@ def fireall():
     musefire()
     wisfire()
     stealfire()
-
 #    print lovebank

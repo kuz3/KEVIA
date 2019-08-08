@@ -24,3 +24,5 @@ badbank = ["Death", "Fear"] #morality
 #//////////////////////////////MEMORY BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 membank = []
 massmembank = []
+#//ME
+masterbank = []

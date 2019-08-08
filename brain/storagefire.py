@@ -16,13 +16,15 @@ def fire():
     talk = "\n%s: \t \"%s\"" % (name, words)
     if place == "wis":
         wisbank.append(talk)
-    elif place == "love":
-        lovebank.append(talk)
     elif place == "mote":
         bank.append(talk)
+    elif place == "love":
+        lovebank.append(talk)
     elif place == "muse":
         musebank.append(talk)
-    elif place == "test":
-        testbank.append(talk)
+    elif place == "steal":
+        stealbank.append(talk)
+    elif place == "vy":
+        vybank.append(talk)
     else:
         print "fail"
