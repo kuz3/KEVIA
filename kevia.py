@@ -9,13 +9,14 @@ Currently you have:
 """ #and medium and textbroker.
 
 note = """
+    get masterbank working
     test bank output
     create speechfire print formatter (add kevia to a print function)
-    add masterbank
     make second branch
     make second program just with the bank combo and print formatter
     utilize notadded()
     """
+
 ##REDEFINE QUESTIONS AS 3 PARTS. 1. MY MENTAL ASSISTANT AND LEGACY. 2. 3.
 
 from main import *

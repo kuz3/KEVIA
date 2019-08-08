@@ -7,7 +7,7 @@ import brain.banks as b
 def wisshot(): #used from start
     print r.choice(b.wisbank)
 def writeshot(): #used on master toggle
-    print r.choice(b.writersbank)
+    print r.choice(b.writebank)
 def moteshot(): #used on master toggle
     print r.choice(b.motebank)
 def loveshot(): #used where?
