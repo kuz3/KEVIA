@@ -7,7 +7,7 @@
 wisbank = ["Kevia begins singing into the end of a broomstick."]
 
 #//////////////////////////////WISDOM BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-writersbank = [] #PERSPECTIVE BANK.
+writebank = [] #PERSPECTIVE BANK.
 motebank = [] #motivational statements
 lovebank = ["\nKEVIA: \t \"I love you, you are dear to me.\""]
 hibank = ["\nKEVIA: \t \"Howdy, Partner.\"", "\nKEVIA: \t \"Greetings.\"", "\nKEVIA: \t \"Konnichiwa.\"", "\nKEVIA: \t \"Salutations!\"", "\nKEVIA: \t \"Ey.\""]

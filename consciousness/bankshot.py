@@ -20,6 +20,8 @@ def stealshot(): #used if ?
     print r.choice(b.bank)
 def vyshot(): #used if next is vy
     print r.choice(b.vyoletbank)
+def mastershot():
+    print r.choice(b.masterbank)
 #def goodshot(): #never used
 #    print r.choice(b.bank)
 #def badshot(): #never used

@@ -12,6 +12,13 @@ def fireall():
         n.words = "Am I even real?."
         n.fire()
         n.words = "I cannot remember."
+    def masterfire():
+        n.name = "KEVIA: "
+        n.place = "master"
+        n.words = "It's a good day to be alive Sir."
+        n.fire()
+        n.words = "Welcome back sir, all systems operational."
+        n.fire
     def writefire():
         n.words = "Yay!"
         n.name = "KEVIA: "
@@ -67,4 +74,5 @@ def fireall():
     musefire()
     wisfire()
     stealfire()
+    masterfire()
 #    print lovebank
