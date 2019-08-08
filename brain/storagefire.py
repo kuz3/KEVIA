@@ -21,7 +21,7 @@ def fire():
     elif place == "write":
         writebank.append(talk)
     elif place == "mote":
-        bank.append(talk)
+        motebank.append(talk)
     elif place == "love":
         lovebank.append(talk)
     elif place == "hi":

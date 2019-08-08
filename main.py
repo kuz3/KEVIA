@@ -5,18 +5,19 @@ from content.sparkfire import *
 import consciousness.bankshot as c
 import random as r
 import time as t
-#speech = c.mastershot()#next
 #from kevia import master # breaks kevia.py
+fireall()#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 def toggle(master, priorities, note):
     if master == "y":
         global next
-#        print speech #temporary
         c.mastershot()
-        print "%s" % priorities #try print priorities
-        print moteshot
+        print priorities #try print priorities
+        #c.moteshot() #import more motes first !
         while next != "fire":
             next = ask()
-            c.writeshot
+        kevia_main()
+#            c.writeshot()
     else:
         start()
 def start():
@@ -36,7 +37,6 @@ def start():
     t.sleep(1)
     kevia_main()
 def kevia_main():
-    fireall()#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
     global next
     print "Kevia hums and shines a glass cup with an old rag."
     t.sleep(3)
