@@ -9,7 +9,7 @@
 #add to github notes, banks > storagefire  > sparkfire + bankshot > main
 #names...The Banks of Speechlessness
 #Toggle Master Mode
-master = "n"
+master = "y"
 #speech = "" #temporary
 import brain.speechfire as s
 #thisthat = "woooooord" #<<<<<<<<<<<<<<NEW MASTER SPEECH FUNCTION
@@ -19,11 +19,15 @@ Currently you have:
     1. Me, 2. The Book, 3. The Decision Maker"
 """ #and medium and textbroker.
 note = """
+
+    move brain and main functions around.
+    brain: research ternary python
     brain: speechfire one line to execute
     mindless: make second branch
     mindless: make second program just with the bank combo and print formatter
     brain: utilize notadded()
-    creative:
+    creative: write writerhelp function
+    
     brain: import text from keep
     """
 ##REDEFINE QUESTIONS AS 3 PARTS. 1. MY MENTAL ASSISTANT AND LEGACY. 2. 3.

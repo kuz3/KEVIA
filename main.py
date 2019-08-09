@@ -2,6 +2,7 @@ from maincontent import *
 from mainmenu import *
 from brain import *
 from content.sparkfire import *
+from consciousness.shortcuts import *
 import consciousness.bankshot as c
 import random as r
 import time as t
@@ -12,12 +13,12 @@ def toggle(master, priorities, note):
     if master == "y":
         global next
         c.mastershot()
-        print priorities #try print priorities
-        #c.moteshot() #import more motes first !
+        print priorities
+        c.moteshot()
         while next != "fire":
             next = ask()
+            c.writeshot()
         kevia_main()
-#            c.writeshot()
     else:
         start()
 def start():
@@ -65,8 +66,12 @@ def kevia_main():
             c.loveshot()
         elif "vyolet" in next:
             c.vyoletshot()
-        #elif "love" in next:
-        #    love()
         else:
             c.wisshot()
             memory(next) #this memory captures only else output. shouldn't store numbers and such.
+
+#SECRET TEXT FUNCTIONS
+def write_help():
+  print "You need motivation? Perspective? "###########################################################################
+  #print a standard response then return IF=ANY input writersbank.
+  #"If you're feeling bored and uncreative, perhaps its a good time to work on something boring and get it done."
