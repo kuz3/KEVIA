@@ -25,10 +25,11 @@ def fireall():
         n.place = "write"
         n.fire()
     def motefire():
-        n.words = "Yay!"
+        n.words = "You are worth more than billions."
         n.name = "KEVIA: "
         n.place = "mote"
         n.fire()
+
     def lovefire():
         n.words = "Yay!"
         n.name = "KEVIA: "
