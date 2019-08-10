@@ -1,6 +1,7 @@
 from maincontent import *
 from mainmenu import *
 from brain import *
+from brain.memory import *
 from content.sparkfire import *
 from consciousness.shortcuts import *
 import consciousness.bankshot as c
@@ -14,6 +15,7 @@ def toggle(master, priorities, note):
         global next
         c.mastershot()
         print priorities
+        print note
         c.moteshot()
         while next != "fire":
             next = ask()
@@ -74,4 +76,4 @@ def kevia_main():
 def write_help():
   print "You need motivation? Perspective? "###########################################################################
   #print a standard response then return IF=ANY input writersbank.
-  #"If you're feeling bored and uncreative, perhaps its a good time to work on something boring and get it done."
+  #""

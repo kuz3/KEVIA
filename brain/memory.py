@@ -1,4 +1,4 @@
-
+from brain.banks import *
 import consciousness.moodcurrent as c
 import random as r
 ###############################################################################

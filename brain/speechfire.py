@@ -1,6 +1,3 @@
-#copy from storage fire,
-#if necessary use a bankshot like function
-
-def sayfire(say):
+def say(say):
     said = "\nKEVIA: \t \"%s\"" % (say)
     print said

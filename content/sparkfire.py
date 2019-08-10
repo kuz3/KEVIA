@@ -4,7 +4,7 @@ from brain.banks import * #only necessary for the moment?
 def fireall():
     def wisfire():
         n.words = "I hope for more love in this world."
-        n.name = "KEVIA: "
+        n.name = "KEVIA :"
         n.place = "wis"
         n.fire()
         n.words = "You too."
@@ -13,20 +13,22 @@ def fireall():
         n.fire()
         n.words = "I cannot remember."
     def masterfire():
-        n.name = "KEVIA: "
+        n.name = "KEVIA "
         n.place = "master"
         n.words = "It's a good day to be alive Sir."
         n.fire()
         n.words = "Welcome back sir, all systems operational."
         n.fire
     def writefire():
-        n.words = "Yay!"
-        n.name = "KEVIA: "
+        n.words = "Learn your limitations, where you can grow."
+        n.name = "KEVIA "
         n.place = "write"
+        n.fire()
+        n.words = "If you're feeling bored and uncreative, perhaps its a good time to work on something boring and get it done."
         n.fire()
     def motefire():
         n.words = "You are worth more than billions."
-        n.name = "KEVIA: "
+        n.name = "KEVIA "
         n.place = "mote"
         n.fire()
 
@@ -67,6 +69,10 @@ def fireall():
         n.name = "KEVIA: "
         n.place = "bad"
         n.fire()
+#def ideafire(): # just for thinking/inspiration 
+#    n.words = "urllib lets u read web pages.. "
+
+
     #keep at end
     writefire()
     motefire()
