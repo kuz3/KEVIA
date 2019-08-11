@@ -32,5 +32,9 @@ def fire(store):
         stealbank.append(talk)
     elif place == "vy":
         vybank.append(talk)
+    elif place == "good":
+        goodbank.append(talk)
+    elif place == "bad":
+        badbank.append(talk)  
     else:
         print "fail"

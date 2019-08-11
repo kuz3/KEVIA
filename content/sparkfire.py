@@ -39,31 +39,48 @@ def fireall():
     def musefire():
         n.name = "CREATOR"
         n.place = "muse"
-        n.fire(". . . update . . . ")
+        n.fire("The best writers hide their voice behind the code.")
     def stealfire():
         n.name = "KEVIA"
         n.place = "steal"
         n.fire(". . . update . . . ")
-    def vyfire():
+    def vyfire(): #teachfire?
         n.name = "CREATOR"
         n.place = "vy"
-        n.fire(". . . update . . . ")
+        n.fire("Little truths are everywhere. Even the most cliche statements may be more than mere \'nicieties\'.")
+        n.fire("You can do Anything you want in this world. There is nothing You can't do.")
+        n.fire("Ignorance is for fools. Do not hide yourself from the wealth of knowledge available to you.")
+        n.fire("The sooner you learn that you do not know everything, especially when it feels like you do, and realize that you don't know anything, the faster you will learn and grow.")
+        n.fire("Be the bigger person by not stooping down to another's level.")
     def goodfire():
         n.name = "KEVIA "
         n.place = "good"
-        n.fire(". . . update . . . ")
+        n.fire("Life")
+        n.fire("Death")
     def badfire():
         n.name = "KEVIA "
         n.place = "bad"
-        n.fire(". . . update . . . ")
+        n.fire("Death")
 #def ideafire(): # just for thinking/inspiration
 #    n.fire("urllib lets u read web pages.. "
 
     wisfire()
+    #print "err 1"
     writefire()
+    #print "err 2"
     motefire()
+    #print "err 3"
     lovefire()
+    #print "err 4"
     hifire()
+    #print "err 5"
     musefire()
+    #print "err 6"
     stealfire()
+    #print "err 7"
     masterfire()
+    #print "err 8"
+    goodfire() #error here
+    #print "error 9"
+    badfire() #error here
+    #print "error 10"

@@ -1,4 +1,4 @@
-
-def sayfire(say):
-    said = "\nDave: \t \"%s\"" % (say)
-    print said
+import brain.banks as b
+def workspace():
+    if len(b.goodbank) == len(b.badbank):
+        print "alala"

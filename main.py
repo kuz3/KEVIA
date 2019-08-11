@@ -18,10 +18,10 @@ def toggle(master, priorities, note):
 #        print priorities
     #    print note
         c.moteshot()
-        while next != "fire": #this has failed to execute before. 
+        while next != "fire": #this has failed to execute before.
             next = ask()
             c.writeshot()
-        kevia_main()
+            kevia_main()
     else:
         start()
 def start():
