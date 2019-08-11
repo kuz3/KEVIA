@@ -1,3 +1,7 @@
+response = urllib2.urlopen(..)
+headers = response.info()
+data = response.read()
+
 
 func = getattr(modulename, funcname, None):
 if func:

@@ -10,12 +10,16 @@ import time as t
 #from kevia import master # breaks kevia.py
 fireall()#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-def toggle(master, priorities, note):
+def toggle(master, note):
     if master == "y":
         global next
         c.mastershot()
-        print priorities
-        print note
+        #s.say("""
+        #Currently you have:
+        #    1. Me, 2. The Book, 3. The Decision Maker"
+        #""") #and medium and textbroker.
+#        print priorities
+    #    print note
         c.moteshot()
         while next != "fire":
             next = ask()
@@ -32,7 +36,7 @@ def start():
     t.sleep(1)
     print "KEVIA: \t \".\""
     t.sleep(1)
-    print "KEVIA: \t \"last updated: 08.06.19\""
+    print "KEVIA: \t \"last updated: 08.11.19\""
     t.sleep(1)
     print "KEVIA: \t \".\""
     t.sleep(1)

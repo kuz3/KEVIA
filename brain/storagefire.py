@@ -8,12 +8,12 @@ words = "worderror"
 place = "nowhere"
 talk = "talkerror"
 
-def fire():
+def fire(store):
     global name
-    global words
-    global talk
+#    global words
+#    global talk
     global place
-    talk = "\n%s: \t \"%s\"" % (name, words)
+    talk = "\n%s: \t \"%s\"" % (name, store)
     if place == "wis":
         wisbank.append(talk)
     elif place == "master":

@@ -13,3 +13,6 @@ def pressanyreturn():
     print "\n press any key to return"
     next = ask()
     return
+
+#this will navigate you to a web page. would you like to continue?
+    

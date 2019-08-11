@@ -10,7 +10,7 @@ def writeshot(): #used on master toggle
     print r.choice(b.writebank)
 def moteshot(): #used on master toggle
     print r.choice(b.motebank)
-def loveshot(): #used where?
+def loveshot(): #if love in next
     print r.choice(b.wisbank)
 def hishot(): #used if next is hi
     print r.choice(b.hibank)

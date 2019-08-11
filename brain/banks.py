@@ -4,12 +4,12 @@
 #------------------------MEMORY BANKS-----------------------------
 #===========================================================================
 #//////////////////////////////MAIN CONVERSATIONAL BANK\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-wisbank = ["Kevia begins singing into the end of a broomstick."]
+wisbank = []
 
 #//////////////////////////////WISDOM BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 writebank = [] #PERSPECTIVE BANK.
 motebank = [] #motivational statements
-lovebank = ["\nKEVIA: \t \"I love you, you are dear to me.\""]
+lovebank = [] #love
 hibank = ["\nKEVIA: \t \"Howdy, Partner.\"", "\nKEVIA: \t \"Greetings.\"", "\nKEVIA: \t \"Konnichiwa.\"", "\nKEVIA: \t \"Salutations!\"", "\nKEVIA: \t \"Ey.\""]
 musebank = ["The best writers hide their voice behind the code."] #My musings
 stealbank = [] #persp wis not mine.
