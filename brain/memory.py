@@ -1,13 +1,15 @@
 from brain.banks import *
 import consciousness.moodcurrent as c
 import random as r
+import brain.speechfire as s
+
 ###############################################################################
 #==================================MEMORY FUNCTIONS=============================
 ###############################################################################
 
-def hi(next): #print from bank and store next in bank.
+def hi(next): #store next in bank and shoot r
   global hibank
-  hibank.append(next)
+  hibank.append(s.yas(next))
   print r.choice(hibank)
 def massmemory(you_said): #one memory captures all #again do I even need to put the var in here
     global massmemory

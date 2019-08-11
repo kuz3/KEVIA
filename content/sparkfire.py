@@ -24,6 +24,7 @@ def fireall():
         n.name = "KEVIA"
         n.place = "mote"
         n.fire("You are worth more than billions.")
+        n.fire("You are worth it.")
     def lovefire():
         n.name = "KEVIA"
         n.place = "love"
@@ -35,7 +36,6 @@ def fireall():
         n.fire("Greetings.")
         n.fire("Salutations!")
         n.fire("Hello, human.")
-
     def musefire():
         n.name = "CREATOR"
         n.place = "muse"
@@ -45,7 +45,7 @@ def fireall():
         n.place = "steal"
         n.fire(". . . update . . . ")
     def vyfire():
-        n.name = "KEVIA"
+        n.name = "CREATOR"
         n.place = "vy"
         n.fire(". . . update . . . ")
     def goodfire():

@@ -10,18 +10,15 @@ import time as t
 #from kevia import master # breaks kevia.py
 fireall()#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-def toggle(master, note):
+def toggle(master, priorities, note):
     if master == "y":
         global next
         c.mastershot()
-        #s.say("""
-        #Currently you have:
-        #    1. Me, 2. The Book, 3. The Decision Maker"
-        #""") #and medium and textbroker.
+        t.sleep(1)
 #        print priorities
     #    print note
         c.moteshot()
-        while next != "fire":
+        while next != "fire": #this has failed to execute before. 
             next = ask()
             c.writeshot()
         kevia_main()
@@ -66,7 +63,7 @@ def kevia_main():
             write_help()
         elif next == "0":
             kev_main()
-        elif "hi" in next:
+        elif "hi" or "hey" or "hello" in next:
             hi(next)
         elif "love" in next:
             c.loveshot()
