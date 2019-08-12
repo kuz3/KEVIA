@@ -20,11 +20,12 @@ def fireall():
         n.place = "write"
         n.fire("Learn your limitations, where you can grow.")
         n.fire("If you're feeling bored and uncreative, perhaps its a good time to work on something boring and get it done.")
-    def motefire():
+    def motefire(): #also used as goodfire
         n.name = "KEVIA"
         n.place = "mote"
         n.fire("You are worth more than billions.")
         n.fire("You are worth it.")
+    #def badfire
     def lovefire():
         n.name = "KEVIA"
         n.place = "love"
@@ -56,7 +57,6 @@ def fireall():
         n.name = "KEVIA "
         n.place = "good"
         n.fire("Life")
-        n.fire("Death")
     def badfire():
         n.name = "KEVIA "
         n.place = "bad"

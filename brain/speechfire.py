@@ -4,3 +4,4 @@ def say(say):
 def yas(yas):
     said = "\nKEVIA: \t \"%s\"" % (yas)
     return said
+#rename to sayfire 

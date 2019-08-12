@@ -9,6 +9,7 @@ wisbank = []
 #//////////////////////////////WISDOM BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 writebank = [] #PERSPECTIVE BANK.
 motebank = [] #motivational statements
+######### badbank = []
 lovebank = [] #love
 hibank = []
 musebank = [] #My musings

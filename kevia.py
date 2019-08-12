@@ -1,4 +1,4 @@
-master = "y"#Toggle Master Mode
+master = "n"#Toggle Master Mode
 
 #find . -name '*.pyc' -delete
 #remember new function yas
@@ -11,7 +11,8 @@ Currently you have:
     1. Me, 2. The Book, 3. The Decision Maker"
 """) #and medium and textbroker.
 note = """
-    error, kevia talks when saying fire
+    brain: morality system proto
+    error, kevia talks when saying fire X
     move brain and main functions around.
     brain: speechfire one line to execute X
     mindless: make second branch

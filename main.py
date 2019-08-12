@@ -1,5 +1,5 @@
 from maincontent import *
-from mainmenu import *
+#from mainmenu import *
 from brain import *
 from brain.memory import *
 from content.sparkfire import *
@@ -7,6 +7,9 @@ from consciousness.shortcuts import *
 import consciousness.bankshot as c
 import random as r
 import time as t
+import menu.morality as menum
+import menu.drinksmenu as menud
+import menu.questions as menuq
 #from kevia import master # breaks kevia.py
 fireall()#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -19,9 +22,9 @@ def toggle(master, priorities, note):
     #    print note
         c.moteshot()
         while next != "fire": #this has failed to execute before.
-            next = ask()
             c.writeshot()
-            kevia_main()
+            next = ask()
+        kevia_main()
     else:
         start()
 def start():
@@ -33,7 +36,7 @@ def start():
     t.sleep(1)
     print "KEVIA: \t \".\""
     t.sleep(1)
-    print "KEVIA: \t \"last updated: 08.11.19\""
+    print "KEVIA: \t \"last updated: 08.12.19\""
     t.sleep(1)
     print "KEVIA: \t \".\""
     t.sleep(1)
@@ -54,11 +57,11 @@ def kevia_main():
         next = ask()
 #START CHOICES
         if next == "1":
-            drink_start()
+            menud.drink_start()
         elif next == "2":
-            questions_start()
+            menuq.questions_start()
         elif next == "3":
-            morality()
+            menum.morality()
         elif next == "4":
             write_help()
         elif next == "0":
@@ -69,6 +72,8 @@ def kevia_main():
             c.loveshot()
         elif "vyolet" in next:
             c.vyoletshot()
+        elif "exit" or "kill" or "quit" in next:
+            s.say("Press CTRL-C to kill me and restart. ")
         else:
             c.wisshot()
             memory(next) #this memory captures only else output. shouldn't store numbers and such.

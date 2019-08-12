@@ -1,6 +1,7 @@
-#move morality somewhere else.. 
+#move morality somewhere else..
 import time as t
 from mainbrain import *
+import soul.mood as som
 ##############################
 #LEARN FUNCTIONS
 def morality():
@@ -18,12 +19,15 @@ def morality():
     if next == "1":
       global goodbank
       goodbank.append(noun)
-      print "KEVIA: I have added %s to my list of good things."#"\n Here is my current memory of good things: %s " % (noun, goodbank)
-      print "Thanks."
+      print "KEVIA: I have added %s to my list of good things." % noun #"\n Here is my current memory of good things: %s " % (noun, goodbank)
+      #print "Thanks."
+      s.say(goodbank)
+      som.setmood()
       #next.
     elif next == "2":
       global badbank
       badbank.append(noun)
-      print "I have added %s to my list of good things.\n Here is my current memory of good things: %s " % (noun, goodbank)
-      print "would you like to go back?"
+      #print "I have added %s to my list of good things.\n Here is my current memory of good things: %s " % (noun, goodbank)
+      #print "would you like to go back?"
       #All humans are mortal. Socrates is a human. Therefore, Socrates is mortal.
+      som.setmood()
