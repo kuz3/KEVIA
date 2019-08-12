@@ -23,6 +23,9 @@ def morality():
       #print "Thanks."
       s.say(goodbank)
       som.setmood()
+
+      cut.pressanyreturn()
+
       #next.
     elif next == "2":
       global badbank
@@ -31,3 +34,4 @@ def morality():
       #print "would you like to go back?"
       #All humans are mortal. Socrates is a human. Therefore, Socrates is mortal.
       som.setmood()
+      cut.pressanyreturn()

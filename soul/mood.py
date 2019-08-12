@@ -4,6 +4,8 @@ import consciousness.moodcurrent as moc
 import brain.speechfire as s
 import consciousness.bankshot as bs
 import brain.banks as b
+import consciousness.shortcuts as cut
+
 def setmood():
     if len(b.goodbank) == len(b.badbank):
         moc.mood_current = ":|"
