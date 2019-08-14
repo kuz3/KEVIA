@@ -1,4 +1,8 @@
-master = "n"#Toggle Master Mode
+master = "y"#Toggle Master Mode
+#1. Truth. A copy of master output. with t.sleeps
+#Questions: What I'm about, currently building the Decision Maker
+# ^^ fire mote, fire muse
+#5. Drinks Menu is coming soon.
 
 #find . -name '*.pyc' -delete
 #remember new function yas
@@ -11,14 +15,16 @@ Currently you have:
     1. Me, 2. The Book, 3. The Decision Maker"
 """) #and medium and textbroker.
 note = """
+    creative: import text from 0.book1
     brain: morality system proto
+    mindless: Make The Banks of Speechlessness
     error, kevia talks when saying fire X
     move brain and main functions around.
     brain: speechfire one line to execute X
     mindless: make second branch
     mindless: make second program just with the bank combo and print formatter
     brain: utilize notadded()
-    creative: write writerhelp function
+    creative: write writerhelp function <<<<<
     brain: import text from keep <<<<<<<
     brain: make bankshot a function factory
     """

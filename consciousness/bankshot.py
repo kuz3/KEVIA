@@ -8,7 +8,7 @@ def wisshot(): #used from start
     print r.choice(b.wisbank)
 def writeshot(): #used on master toggle
     print r.choice(b.writebank)
-def moteshot(): #used on master toggle, and morality good 
+def moteshot(): #used on master toggle, and morality good
     print r.choice(b.motebank)
 def loveshot(): #if love in next
     print r.choice(b.wisbank)
@@ -19,7 +19,7 @@ def museshot(): #used if ?
 def stealshot(): #used if ?
     print r.choice(b.bank)
 def vyshot(): #used if next is vy
-    print r.choice(b.vyoletbank)
+    print r.choice(b.vybank)
 def mastershot():
     print r.choice(b.masterbank)
 #def goodshot(): #never used
