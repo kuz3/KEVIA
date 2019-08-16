@@ -3,6 +3,11 @@
 #===========================================================================
 import random as r
 import brain.banks as b
+import brain.speechfire as s
+def masterwordshot():
+    print
+    s.say("Some words for you,")
+    print(", ".join(r.sample(b.masterwordbank, k=5)))
 
 def wisshot(): #used from start
     print r.choice(b.wisbank)
@@ -22,6 +27,9 @@ def vyshot(): #used if next is vy
     print r.choice(b.vybank)
 def mastershot():
     print r.choice(b.masterbank)
+def prayershot():
+    print r.choice(b.prayerbank)
+#    print "working"
 #def goodshot(): #never used
 #    print r.choice(b.bank)
 #def badshot(): #never used

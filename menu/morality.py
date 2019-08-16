@@ -1,7 +1,9 @@
 #move morality somewhere else..
+from importall import *
 import time as t
-from mainbrain import *
+#from mainbrain import *
 import soul.mood as som
+import main as m
 ##############################
 #LEARN FUNCTIONS
 def morality():
@@ -30,7 +32,7 @@ def morality():
                     #print "Thanks."
                     s.say(goodbank)
                     som.setmood()
-                    cut.pressanyreturn()
+                    cut.pressanyreturn() # cut?
                     morality()
                 elif next == "2":
                     print "KEVIA: I have added %s to my list of bad things." % noun #"\n Here is my current memory of good things: %s " % (noun, goodbank)
@@ -40,7 +42,7 @@ def morality():
                     cut.pressanyreturn()
                     morality()
     print "Press any key to return to main"
-    kevia_main()
+    m.kevia_main()
       #print "I have added %s to my list of good things.\n Here is my current memory of good things: %s " % (noun, goodbank)
       #print "would you like to go back?"
       #All humans are mortal. Socrates is a human. Therefore, Socrates is mortal.

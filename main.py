@@ -1,46 +1,43 @@
-from maincontent import *
-#from mainmenu import *
-from brain import *
-from brain.memory import *
-from content.sparkfire import *
-from consciousness.shortcuts import *
-import consciousness.bankshot as c
-import random as r
-import time as t
+from importall import *
 import menu.morality as menum
-import menu.drinksmenu as menud
-import menu.questions as menuq
+import menu.positivity as menup
+update = "08.16.19"
 #from kevia import master # breaks kevia.py
-fireall()#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
+spa.fireall()
 def toggle(master, priorities, note):
     if master == "y":
         global next
         c.mastershot()
-        t.sleep(1)
+        t.sleep(2)
 #        print priorities
     #    print note
         c.moteshot()
+        t.sleep(3)
+    #    c.prayershot()
+    #    t.sleep(3)
+        c.masterwordshot()
         while next != "fire": #this has failed to execute before.
-            c.writeshot()
+            c.museshot()
             next = ask()
+
         kevia_main()
     else:
         start()
 def start():
     print "KEVIA: \t \"Initializing\""
-    t.sleep(2)
-    print "KEVIA: \t \"...\""
     t.sleep(1)
-    print "KEVIA: \t \"..\""
-    t.sleep(1)
-    print "KEVIA: \t \".\""
-    t.sleep(1)
-    print "KEVIA: \t \"last updated: 08.12.19\""
-    t.sleep(1)
-    print "KEVIA: \t \".\""
-    t.sleep(1)
-    print "KEVIA: \t \".\"\n"
+#    print "KEVIA: \t \"...\""
+#    t.sleep(1)
+#    print "KEVIA: \t \"..\""
+#    t.sleep(1)
+#    print "KEVIA: \t \".\""
+#    t.sleep(1)
+    print "KEVIA: \t \"last updated: %s\"" % update
+#    t.sleep(1)
+#    print "KEVIA: \t \".\""
+#    t.sleep(1)
+#    print "KEVIA: \t \".\"\n"
     t.sleep(1)
     kevia_main()
 def kevia_main():
@@ -48,24 +45,28 @@ def kevia_main():
     print "Kevia hums and shines a glass cup with an old rag."
     t.sleep(3)
     print """
-    \n1. Drink Menu
-    \n2. Questions Menu
-    \n3. Morality
-    \n4. Knowledge(Tentative)""" #rename. Access to Secrets of Adulthood, Law of VideoGaming Life, The other Lists.
+    \n1. Positivity(Tentative)
+    \n2. Questions Menu(In Development)
+    \n3. Drink Menu(Coming Soon)
+    \n4. Morality(In Development)
+    \n5. Knowledge(Tentative)""" #rename. Access to Secrets of Adulthood, Law of VideoGaming Life, The other Lists.
     while next != "1" or next != "2":
 #        global next
         next = ask()
 #START CHOICES
+
         if next == "1":
-            menud.drink_start()
+            menup.positivity()
         elif next == "2":
             menuq.questions_start()
         elif next == "3":
-            menum.morality()
+            menud.drink_start()
         elif next == "4":
+            menum.morality()
+        elif next == "5":
             write_help()
         elif next == "0":
-            kev_main()
+            kevia_main()
         elif "hi" or "hey" or "hello" in next:
             hi(next)
         elif "love" in next:

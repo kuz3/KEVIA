@@ -35,6 +35,8 @@ def fire(store):
     elif place == "good":
         goodbank.append(talk)
     elif place == "bad":
-        badbank.append(talk)  
+        badbank.append(talk)
+    elif place == "prayer":
+        prayerbank.append(talk)
     else:
         print "fail"

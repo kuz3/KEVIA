@@ -25,5 +25,16 @@ badbank = [] #morality
 #//////////////////////////////MEMORY BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 membank = []
 massmembank = []
-#//ME
+#//////////////////////////////ME BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 masterbank = []
+masterwordbank = ["love", "wisdom", "kindness", "compassion", "empathy", "truth",
+"nurturing", "fun", "joy", "peace", "gratitude", "healing", "power", "success",
+"stability", "wonder", "flow", "surrender", "passion", "clarity", "virtue",
+"cognizance", "growth", "glory", "light", "fulfillment", "beauty", "positivity",
+"perspective", "energy", "gentleness", "ability", "humor", "song and dance", "appreciation", "charm",
+"inspiration", "gold", "adventure", "excitement", "rejuvination", "strength", "focus",
+"humility", "courage", "trust", "faith", "spirit", "hope", "resolve", "output",
+"commitment", "freedom"]
+prayerbank = []
+
+superbank = [wisbank, writebank]

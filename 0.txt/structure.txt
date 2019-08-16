@@ -1,4 +1,8 @@
-#not up to date 
+banks > storagefire > sparkfire > bankshot > main 
+
+
+
+#not up to date
 soul >   brain >    content > speak > main > kevia
 ^            ^
 mood         banks

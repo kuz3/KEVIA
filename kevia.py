@@ -1,20 +1,22 @@
-master = "y"#Toggle Master Mode
+master = "n"#Toggle Master Mode
 #1. Truth. A copy of master output. with t.sleeps
 #Questions: What I'm about, currently building the Decision Maker
 # ^^ fire mote, fire muse
 #5. Drinks Menu is coming soon.
-
+import brain.banks as b
 #find . -name '*.pyc' -delete
 #remember new function yas
 
 #import webbrowser
 #webbrowser.open("https://google.com", new=0, autoraise=True)
 import brain.speechfire as s
+
 priorities = s.yas("""
 Currently you have:
     1. Me, 2. The Book, 3. The Decision Maker"
 """) #and medium and textbroker.
 note = """
+    mindless: superbank output
     creative: import text from 0.book1
     brain: morality system proto
     mindless: Make The Banks of Speechlessness
@@ -35,6 +37,10 @@ note = """
 ##REDEFINE QUESTIONS AS 3 PARTS. 1. MY MENTAL ASSISTANT AND LEGACY. 2. 3.
 from main import *
 #toggle(master, note)
+#print b.superbank
+#print(",".join(b.superbank)) #cant join lists within lists
+
+
 toggle(master, priorities, note)
 
 #ISSUE:

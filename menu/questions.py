@@ -1,5 +1,5 @@
 import time as t
-from mainbrain import *
+#from mainbrain import *
 #from main import *
 import main as m
 def questions_start(): #Q TEXT INTRO
