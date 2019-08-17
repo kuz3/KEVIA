@@ -1,9 +1,21 @@
 from importall import *
-import brain.speechfire as s 
+import main as m
 def positivity():
-    s.say("Ah, here we are.")
-    s.say("Press any key to restart or 0 to return to main.")
+    global next
+    bs.hishot()
+    t.sleep(2)
+    bs.moteshot()
+    t.sleep(3)
+    bs.masterwordshot()
+    t.sleep(4)
+    bs.museshot()
+    s.say("Press enter to say more or 0 to return to main.")
     next = ask()
-    while next != "0":
-         print "Tell me a noun." #using OOP I can set more than one attribute to a noun. Apples are bad and red and green.
-         noun = ask()
+    if next == "0":
+        m.kevia_main()
+    positivity()
+    #while next != "fire":
+    #    if next == "0":
+    #        m.kevia_main()
+    #    bs.museshot()
+    #    next = ask()

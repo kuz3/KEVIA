@@ -1,7 +1,6 @@
 import time as t
 #from mainbrain import *
 #from main import *
-import main as m
 def questions_start(): #Q TEXT INTRO
     print "KEVIA: \t \"Ah, yes. You're the curious one. Let's see..\""
     t.sleep(3)

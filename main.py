@@ -1,24 +1,22 @@
 from importall import *
-import menu.morality as menum
-import menu.positivity as menup
-update = "08.16.19"
+update = "08.17.19"
+#KELA... 
 #from kevia import master # breaks kevia.py
-#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!
 spa.fireall()
 def toggle(master, priorities, note):
     if master == "y":
         global next
-        c.mastershot()
+        bs.mastershot()
         t.sleep(2)
 #        print priorities
     #    print note
-        c.moteshot()
+        bs.moteshot()
         t.sleep(3)
     #    c.prayershot()
     #    t.sleep(3)
-        c.masterwordshot()
+        bs.masterwordshot()
         while next != "fire": #this has failed to execute before.
-            c.museshot()
+            bs.museshot()
             next = ask()
 
         kevia_main()
@@ -45,9 +43,9 @@ def kevia_main():
     print "Kevia hums and shines a glass cup with an old rag."
     t.sleep(3)
     print """
-    \n1. Positivity(Tentative)
+    \n1. Love!
     \n2. Questions Menu(In Development)
-    \n3. Drink Menu(Coming Soon)
+    \n3. Drink Menu(In Development)
     \n4. Morality(In Development)
     \n5. Knowledge(Tentative)""" #rename. Access to Secrets of Adulthood, Law of VideoGaming Life, The other Lists.
     while next != "1" or next != "2":
@@ -70,13 +68,13 @@ def kevia_main():
         elif "hi" or "hey" or "hello" in next:
             hi(next)
         elif "love" in next:
-            c.loveshot()
+            bs.loveshot()
         elif "vyolet" in next:
-            c.vyoletshot()
+            bs.vyoletshot()
         elif "exit" or "kill" or "quit" in next:
             s.say("Press CTRL-C to kill me and restart. ")
         else:
-            c.wisshot()
+            bs.wisshot()
             memory(next) #this memory captures only else output. shouldn't store numbers and such.
 
 #SECRET TEXT FUNCTIONS

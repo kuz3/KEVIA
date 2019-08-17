@@ -1,10 +1,13 @@
 master = "n"#Toggle Master Mode
+#find . -name '*.pyc' -delete
+#kevia started acting weird after I added the second while loop
+
 #1. Truth. A copy of master output. with t.sleeps
 #Questions: What I'm about, currently building the Decision Maker
 # ^^ fire mote, fire muse
 #5. Drinks Menu is coming soon.
 import brain.banks as b
-#find . -name '*.pyc' -delete
+
 #remember new function yas
 
 #import webbrowser
@@ -16,15 +19,16 @@ Currently you have:
     1. Me, 2. The Book, 3. The Decision Maker"
 """) #and medium and textbroker.
 note = """
+    main task: KELA
+    main task: The Banks of Speechlessness ..
     mindless: superbank output
     creative: import text from 0.book1
     brain: morality system proto
-    mindless: Make The Banks of Speechlessness
+    mindless:
     error, kevia talks when saying fire X
-    move brain and main functions around.
+    move brain and main functions around. X
     brain: speechfire one line to execute X
     mindless: make second branch
-    mindless: make second program just with the bank combo and print formatter
     brain: utilize notadded()
     creative: write writerhelp function <<<<<
     brain: import text from keep <<<<<<<

@@ -7,12 +7,14 @@ def notadded():
   time.sleep(5)
   return
 
+def pressanything():
+    print
+    print "\n press enter to continue"
 def pressanynumber():
     print "\n type a number and press enter to continue"
 def pressanyreturn():
-    print "\n press any key to return"
+    print "\n press enter to return"
     next = ask()
     return
 
 #this will navigate you to a web page. would you like to continue?
-    
