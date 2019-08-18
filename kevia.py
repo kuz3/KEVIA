@@ -1,8 +1,8 @@
-master = "n"#Toggle Master Mode
+master = "y"#Toggle Master Mode
 #find . -name '*.pyc' -delete
 #kevia started acting weird after I added the second while loop
 
-#1. Truth. A copy of master output. with t.sleeps
+#1. Truth. A copy of master output. with t.sleeps X
 #Questions: What I'm about, currently building the Decision Maker
 # ^^ fire mote, fire muse
 #5. Drinks Menu is coming soon.
@@ -19,7 +19,7 @@ Currently you have:
     1. Me, 2. The Book, 3. The Decision Maker"
 """) #and medium and textbroker.
 note = """
-    main task: KELA
+    main task: KELA X
     main task: The Banks of Speechlessness ..
     mindless: superbank output
     creative: import text from 0.book1
