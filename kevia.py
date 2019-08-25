@@ -1,4 +1,4 @@
-master = "n"#Toggle Master Mode
+master = "y"#Toggle Master Mode
 #find . -name '*.pyc' -delete
 #kevia started acting weird after I added the second while loop
 

@@ -1,6 +1,6 @@
 from importall import *
 update = "08.17.19"
-#KELA... 
+#KELA...
 #from kevia import master # breaks kevia.py
 spa.fireall()
 def toggle(master, priorities, note):
@@ -12,8 +12,8 @@ def toggle(master, priorities, note):
     #    print note
         bs.moteshot()
         t.sleep(3)
-    #    c.prayershot()
-    #    t.sleep(3)
+        bs.prayershot()
+        t.sleep(3)
         bs.masterwordshot()
         while next != "fire": #this has failed to execute before.
             bs.museshot()

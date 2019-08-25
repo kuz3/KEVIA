@@ -1,4 +1,5 @@
 #IF SOMETHING ISN'T WORKING, YOU PROBABLY FORGOT TO FIRE OFF THE FUNCTION
+#for kela give her a second file just for her. 
 import brain.storagefire as n
 from brain.banks import * #only necessary for the moment?
 def fireall():
@@ -19,11 +20,10 @@ def fireall():
 #        n.name = "KEVIA"
 #        n.place = "masterword"
 #        n.fire = ""
-    def prayerfire():
+    def prayerfire(): #import prayer journal
         n.name = "KEVIA"
         n.place = "prayer"
-        n.fire("Lord we pray for faith.")
-        n.fire("Lord God, we pray for you to carry me to serve the world.")
+        n.fire = "working"
     def writefire():
         n.name = "KEVIA"
         n.place = "write"
@@ -34,7 +34,13 @@ def fireall():
         n.name = "KEVIA"
         n.place = "mote"
         n.fire("You are worth more than billions.")
+        n.fire("Look at all you have accomplished in less than 6 months!")
         n.fire("You are worth it.")
+        n.fire("Open your heart.")
+        n.fire("Heal.")
+        n.fire("Care about bigger problems.")
+        n.fire("Face and feel your emotions.")
+        n.fire("You are okay. Existentially.")
         n.fire("There is no reason and nothing to stop you from growing forever.")
         n.fire("Nothing can hold you back. ")
         n.fire("You can have everything.\nEverything you didn't even know you wanted.")
@@ -42,7 +48,11 @@ def fireall():
         n.fire("You are love and loved always and forever. ")
         n.fire("You can always speak, that's what your voice is for.")
         n.fire("Go with the flow.")
-#  warmth,
+        n.fire("Failure is progress. Failure is the way to win.")
+        n.fire("Don't think so far ahead that your plans seem impossible, they are not. ")
+        n.fire("Accomplish as much as you can today, in this moment.")
+        n.fire("The money always works out.")
+        #  warmth,
     #def badfire
     def lovefire():
         n.name = "KEVIA"
