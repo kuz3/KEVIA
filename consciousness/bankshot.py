@@ -7,7 +7,7 @@ import brain.speechfire as s
 def masterwordshot():
     print
     s.say("Some words for you,")
-    print(", ".join(r.sample(b.masterwordbank, k=5)))
+    print(", ".join(r.sample(b.masterwordbank, k=7)))
 
 def wisshot(): #used from start
     print r.choice(b.wisbank)
