@@ -8,17 +8,26 @@ def toggle(master, priorities, note):
         global next
         bs.mastershot()
         t.sleep(2)
-#        print priorities
+        print priorities
     #    print note
+        t.sleep(3)
         bs.moteshot()
         t.sleep(3)
-        bs.prayershot()
-        t.sleep(3)
         bs.masterwordshot()
+        t.sleep(5)
+        bs.prayershot()
+        t.sleep(5)
         while next != "fire": #this has failed to execute before.
             bs.museshot()
             next = ask()
-
+#            bs.moteshot()
+            #t.sleep(3)
+            bs.prayershot()
+            t.sleep(5)
+#            bs.masterwordshot()
+            #t.sleep(3)
+            bs.writeshot()
+            t.sleep(3)
         kevia_main()
     else:
         start()

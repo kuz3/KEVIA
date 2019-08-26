@@ -15,26 +15,28 @@ import brain.banks as b
 import brain.speechfire as s
 
 priorities = s.yas("""
-Currently you have:
-    1. Me, 2. The Book, 3. The Decision Maker"
-""") #and medium and textbroker.
+Your current priorities:
+    1. The Decision Maker. 2. Github Pages"
+""") #and medium and textbroker. and kela and keta. and me and the book.
 note = """
-    main task: KELA X
+    prayer from book
+    change master output. X
+    main task: KELA < 1. fix last bank, 2. segment code for syncing to kevia 3. create site
+    main task: KETA < 1. create 2. create repo 3. create site
     main task: The Banks of Speechlessness ..
     mindless: superbank output
-    creative: import text from 0.book1
     brain: morality system proto
-    mindless:
-    error, kevia talks when saying fire X
-    move brain and main functions around. X
-    brain: speechfire one line to execute X
-    mindless: make second branch
     brain: utilize notadded()
     creative: write writerhelp function <<<<<
-    brain: import text from keep <<<<<<<
     brain: make bankshot a function factory
     """
+#creative: import text from 0.book1 X
 
+#mindless: make second branch X
+#    brain: import text from keep <<<<<<<
+#error, kevia talks when saying fire X
+#move brain and main functions around. X
+#brain: speechfire one line to execute X
 #how to open a link from python X
 #add to github notes, banks > storagefire  > sparkfire + bankshot > main
 #names...The Banks of Speechlessness

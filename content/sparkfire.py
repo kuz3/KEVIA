@@ -1,5 +1,6 @@
-#IF SOMETHING ISN'T WORKING, YOU PROBABLY FORGOT TO FIRE OFF THE FUNCTION
-#for kela give her a second file just for her. 
+#Indexerror = forgot to fire function
+#for kela give her a second file just for her.
+#im going to need pseudorandom output to get different results..
 import brain.storagefire as n
 from brain.banks import * #only necessary for the moment?
 def fireall():
@@ -21,15 +22,47 @@ def fireall():
 #        n.place = "masterword"
 #        n.fire = ""
     def prayerfire(): #import prayer journal
-        n.name = "KEVIA"
         n.place = "prayer"
-        n.fire = "working"
+        lord = "Lord my God"
+        n.name = "GRATITUDE"
+        n.fire("God, I call out your Name to praise you, you who have already helped me help myself.")
+        n.fire("Lord my God, I praise your eternal name, your beauty eternal. Lord God, to you I surrender unconditionally.")
+        n.fire("God, thank you for showering me in abundances of riches.")
+        n.fire("Thank you God for this gift of life and for your blessings and the beauty you pour out of me and this Earth.")
+        n.fire("Thank you God for the beauty and appreciation and love that you have given to me.")
+        n.fire("Thank you God for this voice and these hands, for this perfect health and perfect, beautiful body and mind.")
+        n.name = "Change me, %s" % lord
+        n.fire("Change my heart to be as David's, who you loved as your son, and who loved you.")
+        n.fire("Mold my actions to be as Jesus', who walked with clean hands, with passion, outpouring unconditional love and grace.")
+        n.fire("Change us to love one another, as Jesus commanded.")
+        n.fire("Align me with and connect me to my best self and heart, soul, body, mind, dreams, reality and beyond.")
+        n.fire("Tune me to your Glory and radiate through me in absolute abundance.")
+        n.fire("to be fearless and unshakably resolute.")
+        n.fire("Bring out the best parts from inside me with your Spirit.")
+        n.fire("to walk with your Glory in my heart and to love all.")
+        n.fire("Make my negative defense mechanisms dissolve, those that keep me from connecting to others.")
+        n.fire("Change my negative ways, thinking and actions to become positive.")
+        n.fire("to be of heart and soul.")
+        n.name = "Heal me, %s" % lord
+        n.fire("Open my heart, burn coals brighter, awaken my essence to to infinite beauty and love.")
+        n.fire("Work on and heal my heart, to outpour love, free of blemish and condition, to all who cross my path.")
+        n.fire("Fill love into the cracks of my being, my heart, my soul, sink deeply to bring forth your best ways in me.")
+        n.fire("Heal my identity, help me let go of my false selves that no longer serve you.")
+        n.name = "Empower me, %s" % lord
+        n.fire("d")
+        n.name = "Grow me, %s" % lord
+        n.fire("e")
+        n.name = "Bless me,  %s" % lord
+        n.fire("f")
+        n.name = "The War,  %s" % lord
+
     def writefire():
         n.name = "KEVIA"
         n.place = "write"
         n.fire("Learn your limitations, where you can grow.")
         n.fire("If you\'re feeling bored and uncreative, perhaps its a good time to work on something boring and get it done.")
         n.fire("You know this life is no longer for you anymore. You are on a path that will guide you along to a greater calling, to better this world. Just go with the flow.")
+#BELOW THIS IS KELA APPROVED
     def motefire(): #also used as goodfire
         n.name = "KEVIA"
         n.place = "mote"
@@ -65,6 +98,7 @@ def fireall():
         n.fire("Greetings.")
         n.fire("Salutations!")
         n.fire("Hello, human.")
+#WE'RE GOING TO MUSE FOR DEPLOYED KELA
     def musefire():
         n.name = "CREATOR"
         n.place = "muse"
