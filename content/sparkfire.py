@@ -45,17 +45,47 @@ def fireall():
         n.fire("to be of heart and soul.")
         n.name = "Heal me, %s" % lord
         n.fire("Open my heart, burn coals brighter, awaken my essence to to infinite beauty and love.")
-        n.fire("Work on and heal my heart, to outpour love, free of blemish and condition, to all who cross my path.")
-        n.fire("Fill love into the cracks of my being, my heart, my soul, sink deeply to bring forth your best ways in me.")
-        n.fire("Heal my identity, help me let go of my false selves that no longer serve you.")
+        n.fire("Work on and heal my heart, to outpour love, free of blemish and condition,\nto all who cross my path.")
+        n.fire("Fill love into the cracks of my being, my heart, my soul,\nsink deeply to bring forth your best ways in me.")
+        n.fire("Heal my identity, help me let go of my false selves and old ways that no longer serve you.")
+        n.fire("Heal my traumas, heal my unhealthy defense mechanisms that push me away from others.")
+        n.name = "Protect me, %s" % lord
+        n.fire("Surround me with your elite warrior angels,\nthat they walk with me always and protect me as I travel in dream.")
+        n.fire("Light my way in the darkness.")
+        n.fire("Shield me from the shackles of doubt. Fill me with security and conviction.")
+        n.fire("from those who do not understand me, your ways and will and methods.")
+        n.fire("from enemies in my path, let them fall before they stand or raise a hand.")
         n.name = "Empower me, %s" % lord
-        n.fire("d")
+        n.fire("Restore my heart and your glory in my soul, my being, and this world.")
+        n.fire("Empower me to walk in fearlessness.")
+        n.fire("Empower me to handle facing into pain.")
+        n.fire("Empower my Will with your Might and Glory.")
+        n.fire("Empower my imagination, my ideas, my lucid dreaming, my creativity, my output.")
+        n.fire("Empower my mind to be able to create complex systems, processes, projects.")
         n.name = "Grow me, %s" % lord
-        n.fire("e")
+        n.fire("Expand all my capacities,\nmy capacity for connection, passion, love, tirelessness, and ability to perceive beauty.")
+        n.fire("Teach me to better pray, worship, glorify you and your glory and magnificence.")
+        n.fire("Teach me a greater unfathomable appreciation of Life and your Glory and You.")
+        n.fire("Teach me to understand with my Heart.")
+        n.fire("Teach me to forge better paths.")
+        n.fire("Teach me ways in which to heal and change and grow spiritually.")
+        n.fire("Teach me to cultivate love and warmth.")
+        n.fire("Grow my capacities for Appreciation and Gratitude, that it overflows out of me.")
+        n.fire("Teach me to be patient and calm, to know when to rest, to better cope with stress.")
+        n.fire("Teach me to better pray, what to pray for, what to ask You for, how to ask You.")
+        n.fire("Teach me how to better worship You, glorify You, praise You."        )
         n.name = "Bless me,  %s" % lord
-        n.fire("f")
-        n.name = "The War,  %s" % lord
-
+        n.fire("Father I accept all blessings, past present and future in this eternal oment that you have for me, Thank You Lord.")
+        n.fire("Father I ask that you aid and guide me to reach my highest potential,\nto shine not as a star but as a sun,\nthat I might be a son of God and a living sun of God,\nOutpouring with warmth and light, love and radiance.")
+        n.fire("Father I ask you align my life into flow towards my calling and highest destiny.")
+        n.fire("Father I beg you to let me fly with wings like eagles, to let me run without weary.")
+        n.name = "Help me fight,  %s" % lord #dont forget against pride
+        n.fire("Lord grant me the Will and Power to win the wars against Fear and Despair, and all other battles.")
+        n.fire("Lord make my ways show others Your Truth, awaken them to the enemy that is Fear,\nthat You can empower us to overcome.")
+        n.fire("Teach us to unconditionally accept, understand, love and support one another\nin rising higher,\nhealing our hearts,\nattuning towards you,\ndrowning out our enemies,\nexpanding our emotional capacities")
+        n.fire("Give us strength and push us to destroy the shadows of doubt, death, shame, blame, guilt, revenge,\nhatred, ignorance, blasphemy, regret, rejection, abandonment, resentment, vengefulness.")
+        n.fire("Give us clarity to see through the shades of doubt and strength to shatter its shackles.")
+        n.fire("Make me to be selfless and greater than my self.")
     def writefire():
         n.name = "KEVIA"
         n.place = "write"

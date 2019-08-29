@@ -13,11 +13,18 @@ import brain.banks as b
 #import webbrowser
 #webbrowser.open("https://google.com", new=0, autoraise=True)
 import brain.speechfire as s
-
+#Your current priorities
 priorities = s.yas("""
-Your current priorities:
-    1. The Decision Maker. 2. Github Pages"
+    ABSOLUTE PRIORITY: GET OUT PROJECT PAGES AND PATREON TODAY.
+    That's 3 pages. And a 4th page, patreon.
+
+    Today started at 
+        Starting On:
+        12:48-2:27
+            designing WTFU with slate, formatting and content.
+
 """) #and medium and textbroker. and kela and keta. and me and the book.
+
 note = """
     prayer from book
     change master output. X
