@@ -1,5 +1,4 @@
-master = "n"#Toggle Master Mode. 
-
+master = "n"#Toggle Master Mode.
 
 
 #find . -name '*.pyc' -delete
@@ -18,6 +17,12 @@ import brain.banks as b
 import brain.speechfire as s
 #Your current priorities
 priorities = s.yas("""
+FIX KEVIA X 
+FIX KELA X
+ADD PATREON LINK TO MOTIBYTES
+ADD PATREON LINK TO KELA
+
+SAT PLAN:
     Tonight is the night of success and accomplishment.
     You already accomplished WTFU and MOTIBYTES.
     Just make the Patreon and make it shine.
