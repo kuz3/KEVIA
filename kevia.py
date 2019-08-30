@@ -16,25 +16,41 @@ import brain.banks as b
 #import webbrowser
 #webbrowser.open("https://google.com", new=0, autoraise=True)
 import brain.speechfire as s
-
+#Your current priorities
 priorities = s.yas("""
-Your current priorities:
-    1. The Decision Maker. 2. Github Pages"
-""") #and medium and textbroker. and kela and keta. and me and the book.
+    Tonight is the night of success and accomplishment.
+    You already accomplished WTFU and MOTIBYTES.
+    Just make the Patreon and make it shine.
+    share the project links, share a Decision Maker preview,
+    Then make notatool. Do whatever it takes.
+    then
+""")
+
+ #and medium and textbroker. and kela and keta. and me and the book.
+#Today started at 08.28.19
+#    Starting On:
+#    12:48-2:27
+#        designing WTFU with slate, formatting and content.
+#    4:30-5:50:
+#        finished WTFU and published
+#    5:50-6:37:
+#        notatool formatted and setup
+#        just need twitter
+#        and message
 note = """
-    prayer from book
-    change master output. X
+    another task: email lists?
     main task: KELA < 1. fix last bank, 2. segment code for syncing to kevia 3. create site
-    main task: KETA < 1. create 2. create repo 3. create site
-    main task: The Banks of Speechlessness ..
+    main task: The Banks of Speechlessness
     mindless: superbank output
     brain: morality system proto
     brain: utilize notadded()
     creative: write writerhelp function <<<<<
     brain: make bankshot a function factory
     """
+#main task: KETA < 1. create 2. create trinket
+#prayer from book X
+#change master output. X
 #creative: import text from 0.book1 X
-
 #mindless: make second branch X
 #    brain: import text from keep <<<<<<<
 #error, kevia talks when saying fire X

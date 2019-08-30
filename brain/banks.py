@@ -27,6 +27,7 @@ membank = []
 massmembank = []
 #//////////////////////////////ME BANKS\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 masterbank = []
+
 masterwordbank = ["love", "wisdom", "kindness", "compassion", "empathy", "truth",
 "nurturing", "fun", "joy", "peace", "gratitude", "healing", "power", "success",
 "stability", "wonder", "flow", "surrender", "passion", "clarity", "virtuousness",
