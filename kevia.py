@@ -18,20 +18,19 @@ import brain.speechfire as s
 #Your current priorities
 priorities = s.yas("""
 ADD PATREON LINK TO MOTIBYTES
+FRI PLAN:
+    TODAY IS THE DAY OF SUCCESS AND ACCOMPLISHMENT THROUGH GOD
+    WHO MAKES ALL THINGS POSSIBLE
+    
+    GET A BETTER COVER PHOTO.. FFS.
+    publish notatool.github.io
+    GOOOO
+    ALSO ADVERT TOOL ON TOOL
 
 SAT PLAN:
-    Tonight is the night of success and accomplishment.
-    You already accomplished W and MOTIBYTES.
-    Just make the Patreon and make it shine. X
-    share the project links, X
-    share a Decision Maker preview, -- running out of time..
+    ALSO ADVERT KELA ON REDDIT
+    contact the world
 
-    Priority is make tool. Do whatever it takes.
-
-    FIX KEVIA X
-    FIX KELA X
-    ADD PATREON LINK TO KELA X
-    ADD PATREON TO KETA X
 """)
 
  #and medium and textbroker. and kela and keta. and me and the book.
@@ -56,7 +55,16 @@ note = """
     brain: make bankshot a function factory
     """
 
-#
+#Tonight is the night of success and accomplishment.
+#Priority is make tool. Do whatever it takes. X YOU DID IT!
+#You already accomplished W and MOTIBYTES. X
+#PATREON CREATED! Good job!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#Just make the Patreon and make it shine. X
+#share the project links X
+##FIX KEVIA X
+#FIX KELA X
+#ADD PATREON LINK TO KELA X
+#ADD PATREON TO KETA X
 #main task: KETA < 1. create 2. create trinket
 #prayer from book X
 #change master output. X

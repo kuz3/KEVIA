@@ -200,3 +200,10 @@ def fireall():
     #print "error 11"
     prayerfire()
 #print "sparkfire sent"
+
+#
+#You create your own reality. It is nothing more than perception.
+#You create this world just as you perceive it.
+#The world you see is your own and no one else's.
+ #Reality is whatever you want it to be.
+ # You are the master of your own destiny.
