@@ -1,4 +1,4 @@
-master = "y"#Toggle Master Mode
+master = "n"#Toggle Master Mode
 #find . -name '*.pyc' -delete
 #kevia started acting weird after I added the second while loop
 
@@ -15,30 +15,37 @@ import brain.banks as b
 import brain.speechfire as s
 #Your current priorities
 priorities = s.yas("""
-    ABSOLUTE PRIORITY: GET OUT PROJECT PAGES AND PATREON TODAY.
-    That's 3 pages. And a 4th page, patreon.
+    Today's the Day of Success and And Accomplishment.
+    You already accomplished WTFU and MOTIBYTES.
+    Just make the Patreon and make it shine.
+    Then make notatool. Do whatever it takes. See how much you can
+    get done in an hour.
+""")
 
-    Today started at 
-        Starting On:
-        12:48-2:27
-            designing WTFU with slate, formatting and content.
-
-""") #and medium and textbroker. and kela and keta. and me and the book.
-
+ #and medium and textbroker. and kela and keta. and me and the book.
+#Today started at 08.28.19
+#    Starting On:
+#    12:48-2:27
+#        designing WTFU with slate, formatting and content.
+#    4:30-5:50:
+#        finished WTFU and published
+#    5:50-6:37:
+#        notatool formatted and setup
+#        just need twitter
+#        and message
 note = """
-    prayer from book
-    change master output. X
     main task: KELA < 1. fix last bank, 2. segment code for syncing to kevia 3. create site
-    main task: KETA < 1. create 2. create repo 3. create site
-    main task: The Banks of Speechlessness ..
+    main task: The Banks of Speechlessness
     mindless: superbank output
     brain: morality system proto
     brain: utilize notadded()
     creative: write writerhelp function <<<<<
     brain: make bankshot a function factory
     """
+#main task: KETA < 1. create 2. create trinket
+#prayer from book X
+#change master output. X
 #creative: import text from 0.book1 X
-
 #mindless: make second branch X
 #    brain: import text from keep <<<<<<<
 #error, kevia talks when saying fire X
