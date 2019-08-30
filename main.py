@@ -1,5 +1,6 @@
 from importall import *
-update = "08.17.19"
+import consciousness.shortcuts as sc
+update = "08.29.19"
 #KELA...
 #from kevia import master # breaks kevia.py
 spa.fireall()
@@ -56,7 +57,9 @@ def kevia_main():
     \n2. Questions Menu(In Development)
     \n3. Drink Menu(In Development)
     \n4. Morality(In Development)
-    \n5. Knowledge(Tentative)""" #rename. Access to Secrets of Adulthood, Law of VideoGaming Life, The other Lists.
+    """
+#    \n5. Knowledge(Tentative) #rename. Access to Secrets of Adulthood, Law of VideoGaming Life, The other Lists.
+
     while next != "1" or next != "2":
 #        global next
         next = ask()

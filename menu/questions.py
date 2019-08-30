@@ -1,4 +1,7 @@
 import time as t
+from importall import *
+import consciousness.shortcuts as sc
+
 #from mainbrain import *
 #from main import *
 def questions_start(): #Q TEXT INTRO
@@ -22,7 +25,7 @@ def questions_menu():
             print "KEVIA: \t \"Ah..ages..eons..My master abandoned me ages ago to build newer iterations of Kev.AI.\""
             t.sleep(3)
             print "KEVIA: \t \"I suppose I'll always be here.\""
-            pressanyreturn()
+            sc.pressanyreturn()
             questions_menu()
         elif next == "2":
             print "KEVIA: \t \"My purpose?\""
@@ -37,14 +40,14 @@ def questions_menu():
                 ongo = ask()
                 if ongo == "1":
                     print "not implemented?" #not working..
-                    pressanyreturn()
+                    sc.pressanyreturn()
                     questions_menu()
                 elif ongo == "2":
                     questions_menu()
             questions_menu()
         elif next == "3":
             print "KEVIA: \t \"I was thinking, %s\"" % massmembank     #what are you thinking about?
-            pressanyreturn()
+            sc.pressanyreturn()
             questions_menu()
         elif next == "4":
             print "KEVIA: \t \"Currently some key words are,\""
@@ -55,7 +58,7 @@ def questions_menu():
             print "KEVIA: \t \"\'Life\', \'Death\'\""
 
             t.sleep(1)
-            pressanyreturn()
+            sc.pressanyreturn()
             questions_menu()
         elif next == "5":
             print "KEVIA: \t \"Next Page\""

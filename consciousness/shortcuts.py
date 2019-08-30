@@ -1,4 +1,5 @@
   #SHORTCUT FUNCTIONS
+from importall import * 
 def transporter():
   print "A beam of blinding light shines down upon you.\n All you can see is white. \n Disoriented, strange visions flood your mind until you lose consciousness."
   time.sleep(4)
