@@ -15,11 +15,12 @@ import brain.banks as b
 import brain.speechfire as s
 #Your current priorities
 priorities = s.yas("""
-    Today's the Day of Success and And Accomplishment.
+    Tonight is the night of success and accomplishment.
     You already accomplished WTFU and MOTIBYTES.
     Just make the Patreon and make it shine.
-    Then make notatool. Do whatever it takes. See how much you can
-    get done in an hour.
+    share the project links, share a Decision Maker preview,
+    Then make notatool. Do whatever it takes.
+    then 
 """)
 
  #and medium and textbroker. and kela and keta. and me and the book.
@@ -34,6 +35,7 @@ priorities = s.yas("""
 #        just need twitter
 #        and message
 note = """
+    another task: email lists?
     main task: KELA < 1. fix last bank, 2. segment code for syncing to kevia 3. create site
     main task: The Banks of Speechlessness
     mindless: superbank output

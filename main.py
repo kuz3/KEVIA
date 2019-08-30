@@ -1,5 +1,5 @@
 from importall import *
-update = "08.26.19"
+update = "08.29.19"
 #KELA...
 #from kevia import master # breaks kevia.py
 spa.fireall()
